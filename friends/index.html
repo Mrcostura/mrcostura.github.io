@@ -18,7 +18,7 @@
 
 
     <title>friends | Costura</title>
-    <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/mcostura/favicon.ico">
+    <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
     
 
 
@@ -26,20 +26,20 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="/mcostura/libs/awesome/css/all.min.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/libs/materialize/materialize.min.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/libs/aos/aos.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/libs/animate/animate.min.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/">
-<link rel="stylesheet" type="text/css" href="/mcostura/css/matery.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/css/my.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/css/dark.css" media="none" onload="if(media!='all')media='all'">
+<link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+<link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+<link rel="stylesheet" type="text/css" href="/">
+<link rel="stylesheet" type="text/css" href="/css/matery.css">
+<link rel="stylesheet" type="text/css" href="/css/my.css">
+<link rel="stylesheet" type="text/css" href="/css/dark.css" media="none" onload="if(media!='all')media='all'">
 
 
 
 
-    <link rel="stylesheet" href="/mcostura/libs/tocbot/tocbot.css">
-    <link rel="stylesheet" href="/mcostura/css/post.css">
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/css/post.css">
 
 
 
@@ -48,163 +48,23 @@
 
 
 
-    <script src="/mcostura/libs/jquery/jquery-3.6.0.min.js"></script>
-<script src="/mcostura/live2d-widget/autoload.js"></script>
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="/live2d-widget/autoload.js"></script>
 
 <meta name="generator" content="Hexo 7.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/mcostura/atom.xml" title="Costura" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="Costura" type="application/atom+xml">
 </head>
 
-
-   <style type="text/css" lang="css">
-    #loading-container{
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-height: 100vh;
-        width: 100vw;
-        z-index: 9999;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: 
-#E0FFFF;
-        text-align: center;
-        /* loader页面消失采用渐隐的方式*/
-        -webkit-transition: opacity 1s ease;
-        -moz-transition: opacity 1s ease;
-        -o-transition: opacity 1s ease;
-        transition: opacity 1s ease;
-    }
-    .loading-image{
-        width: 120px;
-        height: 50px;
-        transform: translate(-50%);
-    }
-
-    .loading-image div:nth-child(2) {
-        -webkit-animation: pacman-balls 1s linear 0s infinite;
-        animation: pacman-balls 1s linear 0s infinite
-    }
-
-    .loading-image div:nth-child(3) {
-        -webkit-animation: pacman-balls 1s linear .33s infinite;
-        animation: pacman-balls 1s linear .33s infinite
-    }
-
-    .loading-image div:nth-child(4) {
-        -webkit-animation: pacman-balls 1s linear .66s infinite;
-        animation: pacman-balls 1s linear .66s infinite
-    }
-
-    .loading-image div:nth-child(5) {
-        -webkit-animation: pacman-balls 1s linear .99s infinite;
-        animation: pacman-balls 1s linear .99s infinite
-    }
-
-   .loading-image div:first-of-type {
-        width: 0;
-        height: 0;
-        border: 25px solid 
-#49b1f5;
-        border-right-color: 
-transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_up .5s 0s infinite;
-        animation: rotate_pacman_half_up .5s 0s infinite;
-    }
-    .loading-image div:nth-child(2) {
-        width: 0;
-        height: 0;
-        border: 25px solid 
-#49b1f5;
-        border-right-color: 
-transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_down .5s 0s infinite;
-        animation: rotate_pacman_half_down .5s 0s infinite;
-        margin-top: -50px;
-    }
-    @-webkit-keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @-webkit-keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @-webkit-keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
-
-    @keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
-
-
-    .loading-image div:nth-child(3),
-    .loading-image div:nth-child(4),
-    .loading-image div:nth-child(5),
-    .loading-image div:nth-child(6){
-        background-color: 
-#49b1f5;
-        width: 15px;
-        height: 15px;
-        border-radius: 100%;
-        margin: 2px;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        transform: translateY(-6.25px);
-        top: 25px;
-        left: 100px;
-    }
-    .loading-text{
-        margin-bottom: 20vh;
-        text-align: center;
-        color: 
-#2c3e50;
-        font-size: 2rem;
-        box-sizing: border-box;
-        padding: 0 10px;
-        text-shadow: 0 2px 10px 
-rgba(0,0,0,0.2);
-    }
-    @media only screen and (max-width: 500px) {
-         .loading-text{
-            font-size: 1.5rem;
-         }
-    }
-    .fadeout {
-        opacity: 0;
-        filter: alpha(opacity=0);
-    }
-    /* logo出现动画 */
-    @-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
-    @keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}}
- </style>
- <script>
-(function () {
-    const loaded = function(){
-       setTimeout(function(){
-            const loader = document.getElementById("loading-container");
-            loader.className="fadeout" ;//使用渐隐的方法淡出loading page
-            // document.getElementById("body-wrap").style.display="flex";
-            setTimeout(function(){
-                loader.style.display="none";
-            },2500); 
-        },1300);//强制显示loading page 1s  
-    };
-    loaded();
-})()
-</script>
 
 <body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
-                <a href="/mcostura/" class="waves-effect waves-light">
+                <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/mcostura/medias/logo2.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/logo2.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">Costura</span>
                 </a>
@@ -216,7 +76,7 @@ rgba(0,0,0,0.2);
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/mcostura/" class="waves-effect waves-light">
+    <a href="/" class="waves-effect waves-light">
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
@@ -227,7 +87,7 @@ rgba(0,0,0,0.2);
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/mcostura/galleries" class="waves-effect waves-light">
+    <a href="/galleries" class="waves-effect waves-light">
       
       <i class="fa-solid fa-ship" style="zoom: 0.6;"></i>
       
@@ -238,7 +98,7 @@ rgba(0,0,0,0.2);
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/mcostura/categories" class="waves-effect waves-light">
+    <a href="/categories" class="waves-effect waves-light">
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
@@ -249,7 +109,7 @@ rgba(0,0,0,0.2);
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/mcostura/friends" class="waves-effect waves-light">
+    <a href="/friends" class="waves-effect waves-light">
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
       
@@ -275,7 +135,7 @@ rgba(0,0,0,0.2);
 
     <div class="mobile-head bg-color">
         
-        <img src="/mcostura/medias/logo2.png" class="logo-img circle responsive-img">
+        <img src="/medias/logo2.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">Costura</div>
         <div class="logo-desc">
@@ -289,7 +149,7 @@ rgba(0,0,0,0.2);
         
         <li class="m-nav-item">
 	  
-		<a href="/mcostura/" class="waves-effect waves-light">
+		<a href="/" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-home"></i>
 			
@@ -300,7 +160,7 @@ rgba(0,0,0,0.2);
         
         <li class="m-nav-item">
 	  
-		<a href="/mcostura/galleries" class="waves-effect waves-light">
+		<a href="/galleries" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fa-solid fa-ship"></i>
 			
@@ -311,7 +171,7 @@ rgba(0,0,0,0.2);
         
         <li class="m-nav-item">
 	  
-		<a href="/mcostura/categories" class="waves-effect waves-light">
+		<a href="/categories" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-bookmark"></i>
 			
@@ -322,7 +182,7 @@ rgba(0,0,0,0.2);
         
         <li class="m-nav-item">
 	  
-		<a href="/mcostura/friends" class="waves-effect waves-light">
+		<a href="/friends" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-address-book"></i>
 			
@@ -357,7 +217,7 @@ rgba(0,0,0,0.2);
             <div class="description center-align">
                 
                 <span id="subtitle"></span>
-                <script src="/mcostura/libs/typed/typed.js"></script>
+                <script src="/libs/typed/typed.js"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
                         strings: [ 
@@ -383,12 +243,12 @@ rgba(0,0,0,0.2);
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/mcostura/medias/banner/" + new Date().getDay() + '.jpg';
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 <script>
     
-      var bannerUrl = "/mcostura/medias/featureimages/" + Math.floor(Math.random() * 24) + '.jpg';
+      var bannerUrl = "/medias/featureimages/" + Math.floor(Math.random() * 24) + '.jpg';
     
     $('.bg-cover.about-cover').css('background-image', 'url(' + bannerUrl + ')');
 
@@ -603,7 +463,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card1">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/louisvuitton.jpg" alt="img">
+                                        <img src="/medias/avatar/louisvuitton.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Louis Vuitton</h1>
                                             <p style="position: relative;top: -35px;">The official Instagram account of Louis Vuitton.</p>
@@ -624,7 +484,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card2">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/chanelofficial.jpg" alt="img">
+                                        <img src="/medias/avatar/chanelofficial.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">CHANEL</h1>
                                             <p style="position: relative;top: -35px;">Chanel is a luxury brand founded by Coco Chanel in 1910.</p>
@@ -645,7 +505,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card3">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/giambattistavalliparis.jpg" alt="img">
+                                        <img src="/medias/avatar/giambattistavalliparis.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Giambattista Valli Paris</h1>
                                             <p style="position: relative;top: -35px;">30 rue Boissy d&#39;Anglas, Paris, France 75008</p>
@@ -666,7 +526,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card4">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/dolcegabbana.jpg" alt="img">
+                                        <img src="/medias/avatar/dolcegabbana.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Dolce&amp;Gabbana</h1>
                                             <p style="position: relative;top: -35px;">Dolce&amp;Gabbana is an Italian luxury fashion house</p>
@@ -687,7 +547,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card5">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/fendi.jpg" alt="img">
+                                        <img src="/medias/avatar/fendi.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Fendi</h1>
                                             <p style="position: relative;top: -35px;">Creativity, fun &amp; craftsmanship since 1925. Largo Goldoni 420, Rome, Italy 00186</p>
@@ -708,7 +568,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card6">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/ferragamo.jpg" alt="img">
+                                        <img src="/medias/avatar/ferragamo.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">FERRAGAMO</h1>
                                             <p style="position: relative;top: -35px;">Founded in 1927 by Salvatore Ferragamo.</p>
@@ -729,7 +589,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card7">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/carolinaherrera.jpg" alt="img">
+                                        <img src="/medias/avatar/carolinaherrera.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">CAROLINA HERRERA</h1>
                                             <p style="position: relative;top: -35px;">Destination for bold elegance and style.</p>
@@ -750,7 +610,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card8">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/prada.jpg" alt="img">
+                                        <img src="/medias/avatar/prada.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Prada</h1>
                                             <p style="position: relative;top: -35px;">Thinking fashion since 1913.</p>
@@ -771,7 +631,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card9">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/alejandrogomezpalomo.jpg" alt="img">
+                                        <img src="/medias/avatar/alejandrogomezpalomo.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Alejandro Gómez Palomo</h1>
                                             <p style="position: relative;top: -35px;">Creative director of @palomospain</p>
@@ -792,7 +652,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card10">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/entreciriosyvolantes.jpg" alt="img">
+                                        <img src="/medias/avatar/entreciriosyvolantes.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">CLAUDIA ALFARO</h1>
                                             <p style="position: relative;top: -35px;">ModaFlamenca desde 2009 Mejor</p>
@@ -813,7 +673,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card1">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/moschino.jpg" alt="img">
+                                        <img src="/medias/avatar/moschino.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Moschino</h1>
                                             <p style="position: relative;top: -35px;">Founded in Milan in 1983</p>
@@ -834,7 +694,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card2">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/versace.jpg" alt="img">
+                                        <img src="/medias/avatar/versace.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Versace</h1>
                                             <p style="position: relative;top: -35px;">Versace</p>
@@ -855,7 +715,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card3">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/zuhairmuradofficial.jpg" alt="img">
+                                        <img src="/medias/avatar/zuhairmuradofficial.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">ZUHAIR MURAD</h1>
                                             <p style="position: relative;top: -35px;">ZUHAIR MURAD</p>
@@ -876,7 +736,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card4">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/jeanpaulgaultier.jpg" alt="img">
+                                        <img src="/medias/avatar/jeanpaulgaultier.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Jean Paul Gaultier</h1>
                                             <p style="position: relative;top: -35px;">Jean Paul Gaultier</p>
@@ -897,7 +757,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card5">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/voguemagazine.jpg" alt="img">
+                                        <img src="/medias/avatar/voguemagazine.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Vogue</h1>
                                             <p style="position: relative;top: -35px;">The official Instagram of Vogue</p>
@@ -918,7 +778,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card6">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/ninaricci.jpg" alt="img">
+                                        <img src="/medias/avatar/ninaricci.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">NINA RICCI</h1>
                                             <p style="position: relative;top: -35px;">Magnifying femininity</p>
@@ -939,7 +799,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card7">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/dior.jpg" alt="img">
+                                        <img src="/medias/avatar/dior.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Dior Official</h1>
                                             <p style="position: relative;top: -35px;">Women, with their intuitive instinct, understood that I dreamed not only of making them more beautiful, but happier too.</p>
@@ -960,7 +820,7 @@ rgba(0,0,0,0.2);
                             <div class="card frind-card8">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="/mcostura/medias/avatar/oscardelarenta.jpg" alt="img">
+                                        <img src="/medias/avatar/oscardelarenta.jpg" alt="img">
                                         <div>
                                             <h1 class="friend-name">Oscar de la Renta</h1>
                                             <p style="position: relative;top: -35px;">Reporting from inside the house of Oscar de la Renta, established in 1965.</p>
@@ -1015,7 +875,7 @@ rgba(0,0,0,0.2);
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/mcostura/libs/aplayer/APlayer.min.css">
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
 <style>
     .aplayer .aplayer-lrc p {
         
@@ -1065,8 +925,8 @@ rgba(0,0,0,0.2);
     </div>
 </div>
 
-<script src="/mcostura/libs/aplayer/APlayer.min.js"></script>
-<script src="/mcostura/libs/aplayer/Meting.min.js"></script>
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="/libs/aplayer/Meting.min.js"></script>
 
     
 
@@ -1077,7 +937,7 @@ rgba(0,0,0,0.2);
             
                 <span id="year">2024</span>
             
-            <a href="/mcostura/about" target="_blank"></a>
+            <a href="/about" target="_blank"></a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             
@@ -1117,7 +977,7 @@ rgba(0,0,0,0.2);
 
 
 
-    <a href="/mcostura/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS Suscripción" data-position="top" data-delay="50">
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS Suscripción" data-position="top" data-delay="50">
         <i class="fas fa-rss"></i>
     </a>
 
@@ -1228,7 +1088,7 @@ $(function () {
         });
     };
 
-    searchFunc('/mcostura/search.xml', 'searchInput', 'searchResult');
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
 });
 </script>
 
@@ -1264,15 +1124,15 @@ $(function () {
 </div>
 
 
-    <script src="/mcostura/libs/materialize/materialize.min.js"></script>
-    <script src="/mcostura/libs/masonry/masonry.pkgd.min.js"></script>
-    <script src="/mcostura/libs/aos/aos.js"></script>
-    <script src="/mcostura/libs/scrollprogress/scrollProgress.min.js"></script>
-<!--<script src="/mcostura/"></script>-->
-    <script src="/mcostura/js/matery.js"></script>
-<script src="/mcostura/js/matery.js"></script>
-<link rel="stylesheet" href="/mcostura/libs/fancybox/jquery.fancybox.css" />
-<script src="/mcostura/libs/fancybox/fancybox.js"></script>
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<!--<script src="/"></script>-->
+    <script src="/js/matery.js"></script>
+<script src="/js/matery.js"></script>
+<link rel="stylesheet" href="/libs/fancybox/jquery.fancybox.css" />
+<script src="/libs/fancybox/fancybox.js"></script>
 
     
 
@@ -1293,7 +1153,7 @@ $(function () {
     <!-- Baidu Push -->
 
     
-    <script src="/mcostura/libs/others/clicklove.js" async="async"></script>
+    <script src="/libs/others/clicklove.js" async="async"></script>
     
     
 
@@ -1310,7 +1170,7 @@ $(function () {
     
 
     
-    <script src="/mcostura/libs/instantpage/instantpage.js" type="module"></script>
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 <style>
   /* 弹窗背景 */
@@ -1399,18 +1259,6 @@ $(function () {
 </script>
 
 </body>
-
-    <div id="loading-container" >
-	<img src="/mcostura/loading.gif" alt="Loading..." style="height:400px">
-         <p class="loading-text">Shh~ Diseñando ropa . . .</p> 
-         <!--<div class="loading-image">
-             <div></div>
-             <div></div>
-             <div></div>
-             <div></div> 
-             <div></div>
-         </div> -->
-    </div>
 
 
 </html>

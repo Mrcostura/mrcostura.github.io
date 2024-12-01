@@ -18,7 +18,7 @@
 
 
     <title>Deconstruccion - Resiliencia | Costura</title>
-    <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/mcostura/favicon.ico">
+    <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
     
 
 
@@ -26,20 +26,20 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="/mcostura/libs/awesome/css/all.min.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/libs/materialize/materialize.min.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/libs/aos/aos.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/libs/animate/animate.min.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/">
-<link rel="stylesheet" type="text/css" href="/mcostura/css/matery.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/css/my.css">
-<link rel="stylesheet" type="text/css" href="/mcostura/css/dark.css" media="none" onload="if(media!='all')media='all'">
+<link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+<link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+<link rel="stylesheet" type="text/css" href="/">
+<link rel="stylesheet" type="text/css" href="/css/matery.css">
+<link rel="stylesheet" type="text/css" href="/css/my.css">
+<link rel="stylesheet" type="text/css" href="/css/dark.css" media="none" onload="if(media!='all')media='all'">
 
 
 
 
-    <link rel="stylesheet" href="/mcostura/libs/tocbot/tocbot.css">
-    <link rel="stylesheet" href="/mcostura/css/post.css">
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/css/post.css">
 
 
 
@@ -48,8 +48,8 @@
 
 
 
-    <script src="/mcostura/libs/jquery/jquery-3.6.0.min.js"></script>
-<script src="/mcostura/live2d-widget/autoload.js"></script>
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="/live2d-widget/autoload.js"></script>
 
   <script>
     window.Live2DModel = 'date/date';
@@ -57,158 +57,18 @@
 
 <meta name="generator" content="Hexo 7.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/mcostura/atom.xml" title="Costura" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="Costura" type="application/atom+xml">
 </head>
 
-
-   <style type="text/css" lang="css">
-    #loading-container{
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-height: 100vh;
-        width: 100vw;
-        z-index: 9999;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: 
-#E0FFFF;
-        text-align: center;
-        /* loader页面消失采用渐隐的方式*/
-        -webkit-transition: opacity 1s ease;
-        -moz-transition: opacity 1s ease;
-        -o-transition: opacity 1s ease;
-        transition: opacity 1s ease;
-    }
-    .loading-image{
-        width: 120px;
-        height: 50px;
-        transform: translate(-50%);
-    }
-
-    .loading-image div:nth-child(2) {
-        -webkit-animation: pacman-balls 1s linear 0s infinite;
-        animation: pacman-balls 1s linear 0s infinite
-    }
-
-    .loading-image div:nth-child(3) {
-        -webkit-animation: pacman-balls 1s linear .33s infinite;
-        animation: pacman-balls 1s linear .33s infinite
-    }
-
-    .loading-image div:nth-child(4) {
-        -webkit-animation: pacman-balls 1s linear .66s infinite;
-        animation: pacman-balls 1s linear .66s infinite
-    }
-
-    .loading-image div:nth-child(5) {
-        -webkit-animation: pacman-balls 1s linear .99s infinite;
-        animation: pacman-balls 1s linear .99s infinite
-    }
-
-   .loading-image div:first-of-type {
-        width: 0;
-        height: 0;
-        border: 25px solid 
-#49b1f5;
-        border-right-color: 
-transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_up .5s 0s infinite;
-        animation: rotate_pacman_half_up .5s 0s infinite;
-    }
-    .loading-image div:nth-child(2) {
-        width: 0;
-        height: 0;
-        border: 25px solid 
-#49b1f5;
-        border-right-color: 
-transparent;
-        border-radius: 25px;
-        -webkit-animation: rotate_pacman_half_down .5s 0s infinite;
-        animation: rotate_pacman_half_down .5s 0s infinite;
-        margin-top: -50px;
-    }
-    @-webkit-keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @keyframes rotate_pacman_half_up {0% {transform: rotate(270deg)}50% {transform: rotate(1turn)}to {transform: rotate(270deg)}}
-
-    @-webkit-keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @keyframes rotate_pacman_half_down {0% {transform: rotate(90deg)}50% {transform: rotate(0deg)}to {transform: rotate(90deg)}}
-
-    @-webkit-keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
-
-    @keyframes pacman-balls {75% {opacity: .7}to {transform: translate(-100px, -6.25px)}}
-
-
-    .loading-image div:nth-child(3),
-    .loading-image div:nth-child(4),
-    .loading-image div:nth-child(5),
-    .loading-image div:nth-child(6){
-        background-color: 
-#49b1f5;
-        width: 15px;
-        height: 15px;
-        border-radius: 100%;
-        margin: 2px;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        transform: translateY(-6.25px);
-        top: 25px;
-        left: 100px;
-    }
-    .loading-text{
-        margin-bottom: 20vh;
-        text-align: center;
-        color: 
-#2c3e50;
-        font-size: 2rem;
-        box-sizing: border-box;
-        padding: 0 10px;
-        text-shadow: 0 2px 10px 
-rgba(0,0,0,0.2);
-    }
-    @media only screen and (max-width: 500px) {
-         .loading-text{
-            font-size: 1.5rem;
-         }
-    }
-    .fadeout {
-        opacity: 0;
-        filter: alpha(opacity=0);
-    }
-    /* logo出现动画 */
-    @-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}100%{opacity:1;-webkit-transform:none;transform:none}}
-    @keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}}
- </style>
- <script>
-(function () {
-    const loaded = function(){
-       setTimeout(function(){
-            const loader = document.getElementById("loading-container");
-            loader.className="fadeout" ;//使用渐隐的方法淡出loading page
-            // document.getElementById("body-wrap").style.display="flex";
-            setTimeout(function(){
-                loader.style.display="none";
-            },2500); 
-        },1300);//强制显示loading page 1s  
-    };
-    loaded();
-})()
-</script>
 
 <body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
-                <a href="/mcostura/" class="waves-effect waves-light">
+                <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/mcostura/medias/logo2.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/logo2.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">Costura</span>
                 </a>
@@ -220,7 +80,7 @@ rgba(0,0,0,0.2);
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/mcostura/" class="waves-effect waves-light">
+    <a href="/" class="waves-effect waves-light">
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
@@ -231,7 +91,7 @@ rgba(0,0,0,0.2);
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/mcostura/galleries" class="waves-effect waves-light">
+    <a href="/galleries" class="waves-effect waves-light">
       
       <i class="fa-solid fa-ship" style="zoom: 0.6;"></i>
       
@@ -242,7 +102,7 @@ rgba(0,0,0,0.2);
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/mcostura/categories" class="waves-effect waves-light">
+    <a href="/categories" class="waves-effect waves-light">
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
@@ -253,7 +113,7 @@ rgba(0,0,0,0.2);
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/mcostura/friends" class="waves-effect waves-light">
+    <a href="/friends" class="waves-effect waves-light">
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
       
@@ -279,7 +139,7 @@ rgba(0,0,0,0.2);
 
     <div class="mobile-head bg-color">
         
-        <img src="/mcostura/medias/logo2.png" class="logo-img circle responsive-img">
+        <img src="/medias/logo2.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">Costura</div>
         <div class="logo-desc">
@@ -293,7 +153,7 @@ rgba(0,0,0,0.2);
         
         <li class="m-nav-item">
 	  
-		<a href="/mcostura/" class="waves-effect waves-light">
+		<a href="/" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-home"></i>
 			
@@ -304,7 +164,7 @@ rgba(0,0,0,0.2);
         
         <li class="m-nav-item">
 	  
-		<a href="/mcostura/galleries" class="waves-effect waves-light">
+		<a href="/galleries" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fa-solid fa-ship"></i>
 			
@@ -315,7 +175,7 @@ rgba(0,0,0,0.2);
         
         <li class="m-nav-item">
 	  
-		<a href="/mcostura/categories" class="waves-effect waves-light">
+		<a href="/categories" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-bookmark"></i>
 			
@@ -326,7 +186,7 @@ rgba(0,0,0,0.2);
         
         <li class="m-nav-item">
 	  
-		<a href="/mcostura/friends" class="waves-effect waves-light">
+		<a href="/friends" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-address-book"></i>
 			
@@ -351,7 +211,7 @@ rgba(0,0,0,0.2);
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/mcostura/galleries/Deconstruccion/Deconstruccion%20Resiliencia.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/galleries/Deconstruccion/Deconstruccion%20Resiliencia.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -380,11 +240,11 @@ rgba(0,0,0,0.2);
                     
                     <div class="article-tag">
                         
-                            <a href="/mcostura/tags/Moda/">
+                            <a href="/tags/Moda/">
                                 <span class="chip bg-color">Moda</span>
                             </a>
                         
-                            <a href="/mcostura/tags/Esdi/">
+                            <a href="/tags/Esdi/">
                                 <span class="chip bg-color">Esdi</span>
                             </a>
                         
@@ -396,7 +256,7 @@ rgba(0,0,0,0.2);
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/mcostura/categories/Esdi/" class="post-category">
+                            <a href="/categories/Esdi/" class="post-category">
                                 Esdi
                             </a>
                         
@@ -436,14 +296,14 @@ rgba(0,0,0,0.2);
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h2 id="Deconstruccion-Resiliencia-🧊"><a href="#Deconstruccion-Resiliencia-🧊" class="headerlink" title="Deconstruccion Resiliencia 🧊"></a>Deconstruccion Resiliencia 🧊</h2><div id="lightgallery" style="display: flex; justify-content: space-evenly; align-items: center; flex-wrap: nowrap;overflow: hidden;">
-    <a href="/mcostura/galleries/Deconstruccion/Deconstruccion Resiliencia.jpg" data-fancybox="gallery" data-caption="Deconstruccion Resiliencia #1">
-        <img src="/mcostura/galleries/Deconstruccion/Deconstruccion Resiliencia.jpg">
+    <a href="/galleries/Deconstruccion/Deconstruccion Resiliencia.jpg" data-fancybox="gallery" data-caption="Deconstruccion Resiliencia #1">
+        <img src="/galleries/Deconstruccion/Deconstruccion Resiliencia.jpg">
     </a>
-    <a href="/mcostura/galleries/Deconstruccion/Deconstruccion Resiliencia2.jpg" data-fancybox="gallery" data-caption="Deconstruccion Resiliencia #2">
-        <img src="/mcostura/galleries/Deconstruccion/Deconstruccion Resiliencia2.jpg">
+    <a href="/galleries/Deconstruccion/Deconstruccion Resiliencia2.jpg" data-fancybox="gallery" data-caption="Deconstruccion Resiliencia #2">
+        <img src="/galleries/Deconstruccion/Deconstruccion Resiliencia2.jpg">
     </a>
-        <a href="/mcostura/galleries/Deconstruccion/Deconstruccion Resiliencia3.jpg" data-fancybox="gallery" data-caption="Deconstruccion Resiliencia #3" style="display: none;">
-        <img src="/mcostura/galleries/Deconstruccion/Deconstruccion Resiliencia3.jpg">
+        <a href="/galleries/Deconstruccion/Deconstruccion Resiliencia3.jpg" data-fancybox="gallery" data-caption="Deconstruccion Resiliencia #3" style="display: none;">
+        <img src="/galleries/Deconstruccion/Deconstruccion Resiliencia3.jpg">
         </a>
 </div>
 
@@ -464,11 +324,11 @@ rgba(0,0,0,0.2);
                     
                         <div class="article-tag">
                             
-                                <a href="/mcostura/tags/Moda/">
+                                <a href="/tags/Moda/">
                                     <span class="chip bg-color">Moda</span>
                                 </a>
                             
-                                <a href="/mcostura/tags/Esdi/">
+                                <a href="/tags/Esdi/">
                                     <span class="chip bg-color">Esdi</span>
                                 </a>
                             
@@ -476,12 +336,12 @@ rgba(0,0,0,0.2);
                     
                 </div>
                 <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
-                    <link rel="stylesheet" type="text/css" href="/mcostura/libs/share/css/share.min.css">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
 <div id="article-share">
 
     
     <div class="social-share" data-sites="twitter,facebook,google,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-    <script src="/mcostura/libs/share/js/social-share.min.js"></script>
+    <script src="/libs/share/js/social-share.min.js"></script>
     
 
     
@@ -519,10 +379,10 @@ rgba(0,0,0,0.2);
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Anterior</div>
             <div class="card">
-                <a href="/mcostura/2024/01/16/athleisure-wear/">
+                <a href="/2024/01/16/athleisure-wear/">
                     <div class="card-image">
                         
-                        <img src="/mcostura/galleries/Athleisure%20Wear/Athleisure%20Wear2.jpg" class="responsive-img" alt="Athleisure Wear">
+                        <img src="/galleries/Athleisure%20Wear/Athleisure%20Wear2.jpg" class="responsive-img" alt="Athleisure Wear">
                         
                         <span class="card-title">Athleisure Wear</span>
                     </div>
@@ -541,7 +401,7 @@ rgba(0,0,0,0.2);
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/mcostura/categories/Esdi/" class="post-category">
+                            <a href="/categories/Esdi/" class="post-category">
                                     Esdi
                                 </a>
                             
@@ -552,19 +412,19 @@ rgba(0,0,0,0.2);
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/mcostura/tags/Moda/">
+                    <a href="/tags/Moda/">
                         <span class="chip bg-color">Moda</span>
                     </a>
                     
-                    <a href="/mcostura/tags/Esdi/">
+                    <a href="/tags/Esdi/">
                         <span class="chip bg-color">Esdi</span>
                     </a>
                     
-                    <a href="/mcostura/tags/Athleisure-Wear/">
+                    <a href="/tags/Athleisure-Wear/">
                         <span class="chip bg-color">Athleisure Wear</span>
                     </a>
                     
-                    <a href="/mcostura/tags/Naturaleza/">
+                    <a href="/tags/Naturaleza/">
                         <span class="chip bg-color">Naturaleza</span>
                     </a>
                     
@@ -579,10 +439,10 @@ rgba(0,0,0,0.2);
                 Siguiente&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/mcostura/2022/04/07/top-mangas-abullonadas/">
+                <a href="/2022/04/07/top-mangas-abullonadas/">
                     <div class="card-image">
                         
-                        <img src="/mcostura/galleries/Mangas/Top%20mangas%20abullonadas.jpg" class="responsive-img" alt="Top mangas abullonadas">
+                        <img src="/galleries/Mangas/Top%20mangas%20abullonadas.jpg" class="responsive-img" alt="Top mangas abullonadas">
                         
                         <span class="card-title">Top mangas abullonadas</span>
                     </div>
@@ -601,7 +461,7 @@ rgba(0,0,0,0.2);
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/mcostura/categories/Esdi/" class="post-category">
+                            <a href="/categories/Esdi/" class="post-category">
                                     Esdi
                                 </a>
                             
@@ -612,11 +472,11 @@ rgba(0,0,0,0.2);
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/mcostura/tags/Moda/">
+                    <a href="/tags/Moda/">
                         <span class="chip bg-color">Moda</span>
                     </a>
                     
-                    <a href="/mcostura/tags/Esdi/">
+                    <a href="/tags/Esdi/">
                         <span class="chip bg-color">Esdi</span>
                     </a>
                     
@@ -633,23 +493,23 @@ rgba(0,0,0,0.2);
 
 
 <!-- 代码块功能依赖 -->
-<script type="text/javascript" src="/mcostura/libs/codeBlock/codeBlockFuction.js"></script>
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
 
 
 
 <!-- 代码语言 -->
 
-<script type="text/javascript" src="/mcostura/libs/codeBlock/codeLang.js"></script>
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
 
 
 <!-- 代码块复制 -->
 
-<script type="text/javascript" src="/mcostura/libs/codeBlock/codeCopy.js"></script>
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
 
 
 <!-- 代码块收缩 -->
 
-<script type="text/javascript" src="/mcostura/libs/codeBlock/codeShrink.js"></script>
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
 
 
@@ -671,7 +531,7 @@ rgba(0,0,0,0.2);
 </div>
 
 
-<script src="/mcostura/libs/tocbot/tocbot.min.js"></script>
+<script src="/libs/tocbot/tocbot.min.js"></script>
 <script>
     $(function () {
         tocbot.init({
@@ -743,7 +603,7 @@ rgba(0,0,0,0.2);
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/mcostura/libs/aplayer/APlayer.min.css">
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
 <style>
     .aplayer .aplayer-lrc p {
         
@@ -793,8 +653,8 @@ rgba(0,0,0,0.2);
     </div>
 </div>
 
-<script src="/mcostura/libs/aplayer/APlayer.min.js"></script>
-<script src="/mcostura/libs/aplayer/Meting.min.js"></script>
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="/libs/aplayer/Meting.min.js"></script>
 
     
 
@@ -805,7 +665,7 @@ rgba(0,0,0,0.2);
             
                 <span id="year">2024</span>
             
-            <a href="/mcostura/about" target="_blank"></a>
+            <a href="/about" target="_blank"></a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             
@@ -845,7 +705,7 @@ rgba(0,0,0,0.2);
 
 
 
-    <a href="/mcostura/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS Suscripción" data-position="top" data-delay="50">
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS Suscripción" data-position="top" data-delay="50">
         <i class="fas fa-rss"></i>
     </a>
 
@@ -956,7 +816,7 @@ $(function () {
         });
     };
 
-    searchFunc('/mcostura/search.xml', 'searchInput', 'searchResult');
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
 });
 </script>
 
@@ -992,15 +852,15 @@ $(function () {
 </div>
 
 
-    <script src="/mcostura/libs/materialize/materialize.min.js"></script>
-    <script src="/mcostura/libs/masonry/masonry.pkgd.min.js"></script>
-    <script src="/mcostura/libs/aos/aos.js"></script>
-    <script src="/mcostura/libs/scrollprogress/scrollProgress.min.js"></script>
-<!--<script src="/mcostura/"></script>-->
-    <script src="/mcostura/js/matery.js"></script>
-<script src="/mcostura/js/matery.js"></script>
-<link rel="stylesheet" href="/mcostura/libs/fancybox/jquery.fancybox.css" />
-<script src="/mcostura/libs/fancybox/fancybox.js"></script>
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<!--<script src="/"></script>-->
+    <script src="/js/matery.js"></script>
+<script src="/js/matery.js"></script>
+<link rel="stylesheet" href="/libs/fancybox/jquery.fancybox.css" />
+<script src="/libs/fancybox/fancybox.js"></script>
 
     
 
@@ -1021,7 +881,7 @@ $(function () {
     <!-- Baidu Push -->
 
     
-    <script src="/mcostura/libs/others/clicklove.js" async="async"></script>
+    <script src="/libs/others/clicklove.js" async="async"></script>
     
     
 
@@ -1038,7 +898,7 @@ $(function () {
     
 
     
-    <script src="/mcostura/libs/instantpage/instantpage.js" type="module"></script>
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 <style>
   /* 弹窗背景 */
@@ -1127,18 +987,6 @@ $(function () {
 </script>
 
 </body>
-
-    <div id="loading-container" >
-	<img src="/mcostura/loading.gif" alt="Loading..." style="height:400px">
-         <p class="loading-text">Shh~ Diseñando ropa . . .</p> 
-         <!--<div class="loading-image">
-             <div></div>
-             <div></div>
-             <div></div>
-             <div></div> 
-             <div></div>
-         </div> -->
-    </div>
 
 
 </html>

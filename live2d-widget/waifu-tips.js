@@ -243,7 +243,7 @@
         function() {
 
 			if (window.Live2DModel) {
-				fetch("/mcostura/live2d_models/model_list.json")
+				fetch("/live2d_models/model_list.json")
 				.then(response => response.json())
 				.then(data => {
         // 在这里处理获取到的JSON数据
@@ -264,7 +264,7 @@
             null === e && (e = 1,
             o = 53),
             i.loadModel(e, o);
-			fetch("/mcostura/live2d_models/model_list.json")
+			fetch("/live2d_models/model_list.json")
 				.then(response => response.json())
 				.then(data => {
         // 在这里处理获取到的JSON数据
